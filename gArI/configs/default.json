@@ -5,17 +5,17 @@
     "monitor_index": 1,
     "width": 320,
     "height": 180,
-    "fps": 60
+    "fps": 30
   },
   "actions": {
-    "keys": ["w", "a", "s", "d", "space", "shift", "caps_lock"],
+    "keys": ["w", "a", "s", "d", "space", "shift", "control"],
     "key_threshold": 0.90,
     "per_key_thresholds": {
       "w": 0.50,
       "a": 0.50,
       "s": 0.50,
       "d": 0.50,
-      "caps_lock": 0.5,
+      "control": 0.5,
       "space": 0.90
     },
     "click_threshold": 0.35,
@@ -26,7 +26,7 @@
     "mouse_max_step": 100,
     "aim_before_move": false,
     "aim_move_block_threshold": 10,
-    "aim_move_release_keys": ["w", "a", "s", "d", "caps_lock"],
+    "aim_move_release_keys": ["w", "a", "s", "d", "control"],
     "max_mouse_delta": 80,
     "hotbar_slots": 9
   },
