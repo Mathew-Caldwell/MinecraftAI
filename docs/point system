@@ -7,6 +7,7 @@ kill - +100
 combo (more than 3 hits without getting hit) - +3
 s tap - +2
 within 5 blocks - +1
+found username - +5
 
 Negative:
 hit miss - -1
@@ -17,3 +18,4 @@ death - -100
 combo miss (more than 3 hits without getting hit) - -3
 s tap miss - -2
 out of 5 blocks - -1
+no username - -5
