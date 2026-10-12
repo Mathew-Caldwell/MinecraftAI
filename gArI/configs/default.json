@@ -1,0 +1,64 @@
+{
+  "capture": {
+    "source": "window",
+    "window_title": "Minecraft",
+    "monitor_index": 1,
+    "width": 320,
+    "height": 180,
+    "fps": 60
+  },
+  "actions": {
+    "keys": ["w", "a", "s", "d", "space", "shift", "caps_lock"],
+    "key_threshold": 0.90,
+    "per_key_thresholds": {
+      "w": 0.50,
+      "a": 0.50,
+      "s": 0.50,
+      "d": 0.50,
+      "caps_lock": 0.5,
+      "space": 0.90
+    },
+    "click_threshold": 0.35,
+    "key_hold_frames": 12,
+    "mouse_sensitivity": 10.0,
+    "mouse_smoothing": 1.5,
+    "mouse_min_pixels": 2,
+    "mouse_max_step": 100,
+    "aim_before_move": false,
+    "aim_move_block_threshold": 10,
+    "aim_move_release_keys": ["w", "a", "s", "d", "caps_lock"],
+    "max_mouse_delta": 80,
+    "hotbar_slots": 9
+  },
+  "targeting": {
+    "enabled": true,
+    "mode": "color",
+    "hsv_lower": [80, 60, 70],
+    "hsv_upper": [115, 255, 255],
+    "min_area": 35,
+    "motion_min_area": 10,
+    "motion_threshold": 1,
+    "center_bias_strength": 1.7,
+    "ignore_bottom_ratio": 0.22,
+    "ignore_right_ratio": 0.18,
+    "aim_y_ratio": 0.35,
+    "deadzone_px": 3,
+    "mouse_gain": 0.22,
+    "max_mouse_step": 35,
+    "override_brain_mouse": true,
+    "block_movement_until_targeted": true,
+    "targeted_deadzone_px": 2
+  },
+  "training": {
+    "batch_size": 32,
+    "epochs": 30,
+    "learning_rate": 0.001,
+    "num_workers": 0,
+    "balanced_sampling": true
+  },
+  "paths": {
+    "recordings_dir": "data/recordings",
+    "checkpoints_dir": "checkpoints",
+    "latest_checkpoint": "checkpoints/bc_latest.pt"
+  }
+}

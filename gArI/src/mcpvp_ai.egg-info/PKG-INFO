@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: mcpvp-ai
+Version: 0.1.0
+Summary: Windows-first Minecraft PvP AI research scaffold.
+Requires-Python: >=3.11
+Requires-Dist: numpy>=1.26
+Requires-Dist: opencv-python>=4.9
+Requires-Dist: mss>=9.0
+Requires-Dist: pillow>=10.0
+Requires-Dist: pynput>=1.7
+Requires-Dist: pydirectinput>=1.0
+Requires-Dist: torch>=2.2
+Requires-Dist: tqdm>=4.66
