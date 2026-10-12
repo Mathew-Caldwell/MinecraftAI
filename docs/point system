@@ -1,0 +1,19 @@
+Positive:
+hit - +1
+crit - +2
+aiming - +1
+sprint hit - +2
+kill - +100
+combo (more than 3 hits without getting hit) - +3
+s tap - +2
+within 5 blocks - +1
+
+Negative:
+hit miss - -1
+crit miss - -2
+aiming miss - -1
+sprint hit miss - -2
+death - -100
+combo miss (more than 3 hits without getting hit) - -3
+s tap miss - -2
+out of 5 blocks - -1
