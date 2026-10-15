@@ -1,0 +1,12 @@
+The Instructions for gArI when behaviour cloning
+
+when recording:
+- hold sprint and tap W, click when off W = Sprint hit
+- jump and hit = crit hit
+- maybe if feeling confident, add in strafing (pressing A & D) to dodge hits
+- the difficulty of the bot (from the map) use what ever setting that you are confident that you will win
+against. Test it out before recording for gArI
+- for the aim start you crosshair on an angle so gArI can notice that you are using your mouse
+
+The map will be theobaldthebirds practice map, its in the git just look for the map folder.
+There will also be a texture pack for the targetting.
