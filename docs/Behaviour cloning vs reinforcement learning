@@ -1,0 +1,9 @@
+Behaviour Cloning:
+Behaviour cloning is where you train AI directly from actions performed by a human, to replicate that behaviour and act on its own to perform said behaviour. 
+It is trained not through trial and error, but it instead reads the inputs from a human and when instructed, acts exactly the same. This means it cannot think for itself and adjust based in the situation, it can only work for the situations it has been trained in.
+It is quick to train to get it to perform its tasks, but comes at the cost of being limited in how it can react like mentioned above.
+
+Reinforcement Learning:
+Reinforcement learning is different. It is trained on inputs based on what a human does perform, but it also is given the information on what has been pressed (such as specific buttons in a game) and is shown what the outcomes are.
+It also is trained with a scoring system, where it is told its objective and given control on what happens, but is then rewarded for doing things it should do and points are taken away for things it should not do. 
+It essentially copies a human with its inputs, similar to behaviour cloning, but it also then has the ability to problem solve on the fly to choose what it is going to do next, which makes it stand out from behaviour cloning.
