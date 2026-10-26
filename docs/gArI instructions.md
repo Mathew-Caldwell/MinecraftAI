@@ -1,3 +1,7 @@
+**Set Up**
+in gari brain folder
+pip install -r requirements.txt
+
 **In Game**  
 /gari spawn [username]  
 /gari train  
