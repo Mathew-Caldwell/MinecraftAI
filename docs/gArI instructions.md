@@ -1,3 +1,4 @@
+### Set Up
 **Set Up**  
 in gari brain folder open cmd  
 run: pip install -r requirements.txt
@@ -5,6 +6,10 @@ run: pip install -r requirements.txt
 **In Game**  
 /gari spawn [username]  
 repeat for as many agents as you want (have to have unique usernames)  
+
+/player [username] spawn in survival  
+spawn 1 player per bot
+
 
 ### To Train
 **In CMD**  
