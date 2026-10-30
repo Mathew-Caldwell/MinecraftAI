@@ -1,6 +1,6 @@
 ### Pools
 
-|#|Lochy|Matt|Will|Isac|W|L|HS|HR|Rank|
+|#|Lochy|Matt|Will|Isaac|W|L|HS|HR|Rank|
 |-|-----|----|----|----|-|-|--|--|----|
 |gArI L|#| | | | | | | | |
 |gArI M| |#| | | | | | | |
